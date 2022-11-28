@@ -253,6 +253,28 @@
   color: var(--primary);
 }
 
+.pecyclables .container {
+  background: #f6f7f8;
+  border-radius: 37px;
+  padding: 4rem 2rem;
+}
+
+.pecyclables h2 {
+  color: #32c36c;
+  font-size: 48px;
+  line-height: 75px;
+}
+
+.pecyclables p {
+  font-size: 18px;
+  line-height: 30.8px;
+  color: #1a2a36;
+  margin-top: 20px;
+}
+
+.pecyclables .btn {
+}
+
 @media (max-width: 768px) {
   html,
   body {
@@ -291,5 +313,10 @@
 
   .service-item {
     min-height: auto;
+  }
+
+  .pecyclables h2 {
+    font-size: 32px;
+    line-height: 54px;
   }
 }
